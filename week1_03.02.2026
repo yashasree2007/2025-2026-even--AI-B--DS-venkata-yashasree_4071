@@ -1,0 +1,157 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMKyPrrmpdg3RYN3IcgmnGT",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/yashasree2007/2025-2026-even--AI-B--DS-venkata-yashasree_4071/blob/main/week1_03.02.2026\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 8,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NMhBSkUO0loN",
+        "outputId": "62b219b2-e6d9-4806-d6fe-11d09b104304"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "apple\n",
+            "banana\n",
+            "cherry\n",
+            "orange\n"
+          ]
+        }
+      ],
+      "source": [
+        "#Lists\n",
+        "fruits = [\"apple\", \"banana\", \"cherry\"]\n",
+        "fruits.append(\"orange\")\n",
+        "for fruit in fruits:\n",
+        "    print(fruit)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Tuples\n",
+        "colors = (\"red\", \"green\", \"blue\")\n",
+        "print(colors[0])\n",
+        "print(colors[2])\n",
+        "for color in colors:\n",
+        "    print(color)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KvhyGaTN22Db",
+        "outputId": "3d19663b-eb9a-4833-acb3-5e5574434acc"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "red\n",
+            "blue\n",
+            "red\n",
+            "green\n",
+            "blue\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#sets\n",
+        "numbers = {1, 2, 3, 4}\n",
+        "numbers.add(5)\n",
+        "numbers.remove(2)\n",
+        "for num in numbers:\n",
+        "    print(num)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "L4WOfz7N3NMZ",
+        "outputId": "cfa13f08-76c7-4e63-b264-198802690471"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "3\n",
+            "4\n",
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#dictionaries\n",
+        "student = {\n",
+        "    \"name\": \"Venkata yashasree\",\n",
+        "    \"rollno\": 71,\n",
+        "    \"course\": \"CSE(AI)-B\"\n",
+        "}\n",
+        "print(\"dictionary items:\")\n",
+        "for key, value in student.items():\n",
+        "    print(key, \":\", value)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Qqt5kvsD4pZK",
+        "outputId": "bd1232cf-aa8a-4a08-e410-52423432ca50"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "dictionary items:\n",
+            "name : Venkata yashasree\n",
+            "rollno : 71\n",
+            "course : CSE(AI)-B\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
